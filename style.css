@@ -17,6 +17,7 @@ body{
 }
 .card{
     background:#E4B028 ;
+    position: relative;
     padding: 20px;
     border-radius: 10px;
     display: flex;
@@ -54,4 +55,14 @@ body{
 .card button:hover{
     background:white;
     transform:translateY(-2px);
+}
+.badge{
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    background: #30e3f0;
+    color: rgb(0, 0, 0);
+    padding: 2px 12px;
+    border-radius: 10px;
+    border: none;
 }
