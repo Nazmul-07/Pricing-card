@@ -24,12 +24,11 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 15px;
-    width: 200px;
-    height: 250px;
+    gap: 25px;
+    width: 250px;
+    height: 300px;
     transition:.3s;
     box-shadow:0 10px 25px rgba(128, 122, 122, 0.25);
-
 }
 .card:hover{
     transform:translateY(-10px);
@@ -45,6 +44,7 @@ body{
     cursor: pointer;
     border: none;
     transition: .3s;
+    font-weight: bold;
 }
 .diff{
     transform:scale(1.10);
@@ -65,4 +65,14 @@ body{
     padding: 2px 12px;
     border-radius: 10px;
     border: none;
+    font-weight: bold;
+}
+.card h3{
+    background: #30e3f0;
+    padding: 2px 20px;
+    border-radius: 10px;
+}
+
+.diff h3{
+    color: black;
 }
